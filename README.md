@@ -80,11 +80,11 @@ The table below summarizes leading hosted DNS filtering and ad-blocking services
 
 ## 💻 Open-Source GitHub Projects
 
-All open-source tools below are actively maintained and sorted in **descending order by GitHub star count**. Each repository badge links directly to its live stargazers page.
+All open-source tools below are actively maintained and sorted in **descending order by GitHub Stars_Count**. Each repository badge links directly to its live stargazers page.
 
 ### 🏆 All Open-Source Projects (Ranked by Stars)
 
-| 📦 Project | ⭐ Stars | 🏷️ Category | 🎯 Primary Focus |
+| 📦 Project | ⭐ GitHub_Stars | 🏷️ Category | 🎯 Primary Focus |
 | :--- | :--- | :--- | :--- |
 | **[Pi-hole](https://github.com/pi-hole/pi-hole)** | [![Stars](https://img.shields.io/github/stars/pi-hole/pi-hole?style=social&color=white)](https://github.com/pi-hole/pi-hole/stargazers) | 🛡️ DNS Sinkhole | Network-wide DNS sinkhole running on Linux/Raspberry Pi protecting Smart TVs across your LAN. |
 | **[CleanYourTV](https://github.com/Gathin23/CleanYourTV)** | [![Stars](https://img.shields.io/github/stars/Gathin23/CleanYourTV?style=social&color=white)](https://github.com/Gathin23/CleanYourTV/stargazers) | 🧹 TV Debloater | Automated ADB optimization toolkit to debloat Android TV &amp; Google TV over Wi-Fi for an Apple TV-style home. |
@@ -196,7 +196,7 @@ Contributions are welcome! Please help keep this guide the definitive reference 
 
 1. 🍴 **Fork** this repository.
 2. 📝 **Add or update** entries in `README.md` adhering to the tabular or listed format.
-3. 🔍 Ensure all pricing, star badges, and links are factual, specific, and active.
+3. 🔍 Ensure all pricing, Stars_Badges, and links are factual, specific, and active.
 4. 🚀 **Submit a Pull Request** with a concise description of your additions.
 
 ---
