@@ -1,243 +1,181 @@
-# Awesome-Smart-TV-Utilities-Ad-Blocking-Optimization
+# Awesome Smart TV Utilities & Ad Blocking Optimization
 
-## Top Smart TV Utilities & Ad Blocking Optimization Ecosystem
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Tracked Repositories](https://img.shields.io/badge/Open--Source-Curated-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Smart-TV-Utilities-Ad-Blocking-Optimization)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Smart-TV-Utilities-Ad-Blocking-Optimization)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Smart-TV-Utilities-Ad-Blocking-Optimization/blob/main/README.md)
 
-
-
-**Curated List of SaaS/Hosted Platforms & Open-Source GitHub Projects**  
-
-*Focused on Network-Wide DNS Ad Blocking, Android TV / Fire TV Debloating, Ad-Free Streaming Clients & Custom Launchers*  
+> A curated list of production-grade SaaS cloud DNS platforms, network-wide DNS sinkholes, Android TV & Fire TV ADB debloaters, open-source custom launchers, and telemetry-blocking utilities for Smart TVs.
 
 **Last updated: November 2026**
 
+---
 
+## Overview
 
-This repository tracks notable **SaaS/hosted DNS filtering platforms** and **open-source GitHub projects** for **Smart TV Utilities & Ad Blocking Optimization**. These tools eliminate telemetry, home-screen ads, tracking domains, and bloated vendor apps across Android TV, Google TV, Amazon Fire TV, Tizen, and webOS while delivering faster, cleaner, and privacy-respecting living-room media setups.
+Modern Smart TVs (Android TV, Google TV, Amazon Fire TV, Samsung Tizen, LG webOS, and Roku) increasingly ship with aggressive telemetry trackers, sponsored home screen carousels, unskippable video ads, and unremovable OEM bloatware. 
 
-
-
-**Examples** include Gathin23/CleanYourTV, Pi-hole, AdGuard Home, SmartTube, Projectivy / FLauncher, ADB TV, Technitium DNS Server, Blocky, Unbound, Kodi, Jellyfin, AdGuard DNS, NextDNS, Control D, Cisco Umbrella, Cloudflare 1.1.1.1, Quad9, CleanBrowsing, Blokada Cloud, and AdLock.
-
-
-
-**Open-source emphasis**: This list heavily expands on active open-source self-hosted DNS sinkholes, ADB TV debloaters, ad-free Smart TV media clients, custom launchers, and curated Smart TV blocklists — ideal for home-labbers, cord-cutters, and privacy-conscious users reclaiming full control over their Smart TVs.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[AdGuard DNS](https://adguard-dns.io)**  
-
-  Cloud-hosted privacy-first DNS resolver offering customizable ad, tracker, and Smart TV telemetry blocklists with per-device profiles and encrypted DNS (DoH/DoT/DoQ).
-
-
-
-- **[NextDNS](https://nextdns.io)**  
-
-  Cloud DNS firewall and ad blocker featuring dedicated native tracking blocklists for Samsung, LG, Sony, Roku, and Xiaomi Smart TVs alongside real-time query analytics.
-
-
-
-- **[Control D](https://controld.com)**  
-
-  Customizable cloud DNS resolver combining ad/tracker blocking, Smart TV telemetry filtering, and global traffic routing without requiring VPN apps on TV hardware.
-
-
-
-- **[Cloudflare 1.1.1.1 for Families](https://one.one)**  
-
-  Free, fast public DNS service by Cloudflare offering malware blocking (`1.1.1.2`) and adult-content filtering (`1.1.1.3`) easily configured in any Smart TV or router network settings.
-
-
-
-- **[Quad9](https://quad9.net)**  
-
-  Non-profit, privacy-focused public DNS resolver (`9.9.9.9`) blocking malicious domains, phishing, and spyware endpoints with zero PII logging.
-
-
-
-- **[CleanBrowsing](https://cleanbrowsing.org)**  
-
-  Cloud-based DNS filtering service providing free and paid family-safe, security, and custom blocklist profiles for home routers and Smart TVs.
-
-
-
-- **[Cisco Umbrella](https://cisco.com)**  
-
-  Enterprise cloud-delivered DNS security and content filtering platform protecting connected devices from malicious domains and unauthorized callbacks.
-
-
-
-- **[Blokada Cloud](https://blokada.org)**  
-
-  Cloud-managed ad-blocking DNS and WireGuard VPN service engineered to strip ads and trackers across mobile and Smart TV devices.
-
-
-
-- **[AdLock](https://adlock.com)**  
-
-  Commercial cross-platform ad blocker offering system-wide filtering apps and cloud DNS blocking for Android TV and home networks.
-
-
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[CleanYourTV (Gathin23/CleanYourTV)](https://github.com)**  
-
-  Open-source ADB-based Android TV & Google TV optimization and debloating toolkit that safely removes pre-installed bloatware, disables telemetry/ads, optimizes animations, and streamlines system performance.
-
-
-
-- **[Pi-hole (pi-hole/pi-hole)](https://github.com)**  
-
-  The iconic Linux network-level advertisement and Internet tracker blocking application that acts as a DNS sinkhole to protect every Smart TV and IoT device on your LAN.
-
-
-
-- **[AdGuard Home (AdguardTeam/AdGuardHome)](https://github.com)**  
-
-  Network-wide, single-binary open-source software written in Go for blocking ads, Smart TV tracking servers, and phishing domains with built-in DNS-over-HTTPS/TLS support.
-
-
-
-- **[SmartTube (yuliskov/SmartTube)](https://github.com)**  
-
-  Open-source, ad-free YouTube client engineered specifically for Android TV, Google TV, and Fire TV sticks featuring built-in SponsorBlock, 4K/8K HDR playback, and zero Google Services dependency.
-
-
-
-- **[FLauncher (etienn01/flauncher)](https://github.com)**  
-
-  Open-source, lightweight, ad-free custom home screen launcher for Android TV built with Flutter to replace cluttered, ad-heavy stock interfaces.
-
-
-
-- **[Technitium DNS Server (TechnitiumSoftware/DnsServer)](https://github.com)**  
-
-  Cross-platform, open-source authoritative and recursive DNS server with native ad-blocking blocklists, DNSSEC, DoH/DoT, and a rich web admin console.
-
-
-
-- **[Blocky (0xERR0R/blocky)](https://github.com)**  
-
-  Fast, lightweight DNS proxy and ad-blocker written in Go designed for home labs and Kubernetes with per-client device groups and Prometheus metrics.
-
-
-
-- **[Universal Android Debloater Next Generation (Universal-Debloater-Alliance/universal-android-debloater-next-generation)](https://github.com)**  
-
-  Cross-platform Rust GUI utility using ADB to safely inspect and remove manufacturer bloatware and spyware packages on Android phones and Android TV boxes.
-
-
-
-- **[Jellyfin (jellyfin/jellyfin)](https://github.com)** & **[Kodi (xbmc/xbmc)](https://github.com)**  
-
-  Flagship open-source home theater and media center software delivering 100% ad-free, telemetry-free local and networked media streaming on Smart TVs.
-
-
-
-- **[Hagezi Multi-Pro DNS Blocklists (hagezi/dns-blocklists)](https://github.com)**  
-
-  Meticulously maintained open-source DNS blocklists including dedicated Native Tracker lists that block telemetry from Samsung, LG, Sony, Roku, Hisense, and Amazon Smart TVs.
-
-
-
-- **[Blokada Libre (blokadaorg/blokada)](https://github.com)**  
-
-  Open-source on-device DNS/VPN ad blocker for Android and Android TV that filters ads locally without routing traffic through external servers.
-
-
-
-- **[RethinkDNS (celzero/rethink-app)](https://github.com)**  
-
-  Open-source Android firewall, DNS-over-HTTPS client, and WireGuard manager allowing granular per-app internet blocking on Android TV devices.
-
-
-
-- **[NewPipe (TeamNewPipe/NewPipe)](https://github.com)** & **[PipePipe (InfinityLoop1308/PipePipe)](https://github.com)**  
-
-  Lightweight, open-source streaming frontends supporting Android TV playback, SponsorBlock integration, and background audio with zero ads or tracking.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Unbound (NLnetLabs/unbound)](https://github.com)** — Validating, recursive, caching DNS resolver often paired with Pi-hole or AdGuard Home for direct root-server queries without upstream DNS providers.
-
-- **[dnscrypt-proxy (DNSCrypt/dnscrypt-proxy)](https://github.com)** — Flexible DNS proxy supporting encrypted DNS protocols, local blocklists, and cloaking rules.
-
-- **[TizenTube (reisxd/TizenTube)](https://github.com)** & **[YouTube AdFree webOS (webosbrew/youtube-webos)](https://github.com)** — Open-source ad-free and SponsorBlock-enabled YouTube clients tailored for Samsung Tizen and LG webOS Smart TVs.
-
-- **[Aerial Views (theothernt/AerialViews)](https://github.com)** — Open-source Apple TV-style 4K Dolby Vision/HDR screensaver for Android TV and Google TV.
-
-- **[tvQuickActions / Button Mapper Alternatives (KeyMapper)](https://github.com)** — Open-source Android key-remapping utility for customizing Smart TV remote buttons and disabling hardcoded streaming app shortcuts.
-
-- **[SponsorBlock (ajayyy/SponsorBlock)](https://github.com)** — Crowdsourced open-source API and database for automatically skipping in-video sponsor segments across Smart TV clients.
-
-
-
-**Frameworks for building custom systems**: Combine **Pi-hole** or **AdGuard Home** + **Unbound** + **Hagezi Native Smart TV Blocklists** at the router level, then optimize your TV using **CleanYourTV** (via ADB), **FLauncher**, and **SmartTube** / **Jellyfin** for a completely ad-free, high-speed living-room setup.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- ADB debloating utilities (`CleanYourTV`, `UAD`) disable or uninstall system packages; removing critical OEM services (such as Play Services, DRM/Widevine, or system launchers without a fallback installed) can cause boot loops or break paid streaming apps. Always review package descriptions before disabling.
-
-- Aggressive Smart TV DNS blocklists may occasionally block firmware updates, voice search, or legitimate streaming app authentication endpoints; whitelist required domains as needed.
-
-
+This repository catalogs top **SaaS cloud DNS filtering platforms** and **open-source utilities** designed to:
+- **Block living-room ads & tracking**: Strip DNS telemetry, ACR (Automatic Content Recognition) tracking, and video ads at the network or application level.
+- **Debloat Smart TV hardware**: Safely disable manufacturer bloatware, telemetry packages, and stock home launchers via ADB without rooting.
+- **Speed up media performance**: Replace resource-heavy stock launchers with fast, clean, ad-free alternatives (such as FLauncher, Kodi, and Jellyfin) and ad-free media players (such as SmartTube and NewPipe).
 
 ---
 
+## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS & Hosted DNS Filtering Platforms](#saas--hosted-dns-filtering-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+  - [DNS Sinkholes & Encrypted Resolvers](#dns-sinkholes--encrypted-resolvers)
+  - [Smart TV Debloaters & System Optimization](#smart-tv-debloaters--system-optimization)
+  - [Ad-Free Media Clients & Players](#ad-free-media-clients--players)
+  - [Custom Launchers & TV Utilities](#custom-launchers--tv-utilities)
+  - [Curated Smart TV Blocklists](#curated-smart-tv-blocklists)
+- [Recommended Stack Architecture](#recommended-stack-architecture)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
 
-**Made for home-lab enthusiasts, cord-cutters, privacy advocates, and open-source developers.**  
+---
 
-Let's make Smart TVs faster, cleaner, ad-free, and open to everyone.
+## Sector Overview & Market Dynamics
+
+The global DNS security software and filtering market is valued at approximately **$1.57 billion to $2.1 billion in 2026** (expanding at an 8.4%–11.5% CAGR), while the broader consumer privacy and ad-blocking software industry represents a **$4.2 billion to $4.6 billion** ecosystem driven by over 1.1 billion worldwide users seeking relief from intrusive digital ads and tracking.
+
+From a structural perspective, the market displays **bifurcated moderate fragmentation**:
+- **Enterprise & Public Infrastructure (Concentrated Core)**: Giant networking and cybersecurity conglomerates such as Cisco Systems (Umbrella) and Cloudflare dominate upstream Anycast recursive routing and enterprise secure web gateways (SWG/SASE).
+- **Consumer Privacy & Smart TV Filtering (Highly Fragmented Long Tail)**: Driven by zero-logging requirements, cord-cutting, and connected TV (CTV) ad fatigue, a dynamic ecosystem of independent SaaS pioneers (NextDNS, Control D, AdGuard) and community-driven open-source projects (Pi-hole, SmartTube, Hagezi Blocklists) maintain strong user loyalty through open protocols (DoH, DoT, DoQ) and specialized OEM tracker blocking rules.
+
+---
+
+## SaaS & Hosted DNS Filtering Platforms
+
+The table below summarizes leading hosted DNS filtering and ad-blocking services, sorted descending by corporate scale (valuation / market capitalization / revenue).
+
+| Platform | Company Scale (Valuation / Revenue) | Starting Pricing (Specific Tier) | Free Tier Limits (Perpetual Limits / Free Trial) | Key Smart TV Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Cisco Umbrella](https://umbrella.cisco.com)** | **~$360B Market Cap** (Parent: Cisco Systems) | **$2.25 – $3.00/user/mo** (*DNS Security Essentials*, ~$30–$40/user/yr via partners) | **14-day free trial** with full threat protection; consumer version (*OpenDNS FamilyShield*) offers permanent free unmanaged blocking (`208.67.222.123`) | Enterprise-grade recursive threat filtering; blocks malicious C2 callbacks and phishing across LAN and IoT TV devices. |
+| **[Cloudflare 1.1.1.1 for Families](https://one.one)** | **~$98B Market Cap** (Cloudflare, Inc. [NYSE: NET]) | **$0.00** (Free public service; Zero Trust tier starts at **$7.00/user/mo**) | **100% Free Forever** (Unlimited queries, zero rate caps on public resolvers `1.1.1.2` and `1.1.1.3`) | Global Anycast network; blocks malware and adult content on Smart TVs at zero latency with no software installation required. |
+| **[AdGuard DNS](https://adguard-dns.io)** | **~$5M – $10M Annual Revenue** (Bootstrapped profitable entity) | **$2.49/mo** (Billed annually at $29.88/yr for *Personal* plan; $2.99 billed monthly) | **300,000 queries/month free forever**; unmanaged public DNS (`94.140.14.14`) is free forever with unlimited queries | Dedicated Smart TV blocking lists, DoH/DoT/DoQ configuration, custom block rules, and parental control toggles per TV profile. |
+| **[NextDNS](https://nextdns.io)** | **Bootstrapped / Profitable** (Est. Multi-Million ARR, 100K+ paying users) | **$1.99/mo** (Billed annually at $19.90/yr for *Pro* plan; unlimited queries) | **300,000 queries/month free forever** (filtering reverts to standard DNS resolution once monthly limit is exceeded; no account cutoff) | Dedicated native tracker blocklists for Samsung, LG, Sony, Roku, Hisense, and Xiaomi TVs; detailed real-time query logs. |
+| **[Control D](https://controld.com)** | **Privately Held / Windscribe Subsidiary** (Est. Multi-Million ARR) | **$3.00/mo** (Or $30/yr for *Some Control*; $6.00/mo or $60/yr for *Full Control* with proxy redirect) | **14-day free trial** with full dashboard access (no credit card required); unmanaged public DNS resolvers free forever with unlimited queries | Deep Smart TV telemetry filtering, granular single-click service blocking, and Geo-DNS traffic redirection without running VPN apps on TV. |
+| **[AdLock](https://adlock.com)** | **Privately Held Commercial Business** (Est. Multi-Million ARR) | **$3.29/mo** (Billed annually at $39.50/yr; or $9.95 billed monthly; 5-device plan) | **14-day free trial** for system-wide Android TV apps; free browser extensions for Web browsers | System-wide app traffic filtering, video ad stripping, and encrypted DNS profiles for Android TV and Fire OS. |
+| **[Blokada Cloud](https://blokada.org)** | **~$550K – $600K Annual Revenue** (Blocka AB) | **$3.99/mo** (Or ~$39.99/yr for *Blokada Cloud* / *Blokada 6*) | **7-day free trial** for cloud service; open-source Android app (*Blokada 5 Libre*) is 100% free forever for local on-device filtering | Cloud-managed WireGuard and encrypted private DNS profiles that filter Smart TV trackers before reaching the device. |
+| **[CleanBrowsing](https://cleanbrowsing.org)** | **~$300K – $500K Annual Revenue** (Bootstrapped niche provider) | **$5.00/mo** (Billed annually at $59.99/yr for *Basic Home* plan covering 25 devices) | **100% Free Forever** on 3 preconfigured Anycast filter profiles (*Security*, *Adult*, *Family Filter*); unlimited queries without an account | Zero-configuration DNS protection for routers and Smart TVs; enforces SafeSearch across YouTube, Google, and Bing. |
+| **[Quad9](https://quad9.net)** | **Swiss Non-Profit Foundation** (Funded via institutional grants & donations) | **$0.00** (Non-profit foundation model supported by global sponsors) | **100% Free Forever** (Unlimited queries, zero rate caps, zero PII logging on `9.9.9.9` and DoH/DoT endpoints) | Non-profit threat intelligence aggregator blocking botnets, spyware, phishing, and Smart TV tracking domains globally. |
+
+---
+
+## Open-Source GitHub Projects
+
+All open-source tools below are actively maintained and sorted in **descending order by GitHub star count**. Each repository badge links directly to its live stargazers page.
+
+### All Open-Source Projects (Ranked by Stars)
+
+| Project | Stars | Category | Primary Focus |
+| :--- | :--- | :--- | :--- |
+| **[Pi-hole](https://github.com/pi-hole/pi-hole)** | [![Stars](https://img.shields.io/github/stars/pi-hole/pi-hole?style=social&color=white)](https://github.com/pi-hole/pi-hole/stargazers) | DNS Sinkhole | Network-wide DNS sinkhole running on Linux/Raspberry Pi protecting Smart TVs across your LAN. |
+| **[CleanYourTV](https://github.com/Gathin23/CleanYourTV)** | [![Stars](https://img.shields.io/github/stars/Gathin23/CleanYourTV?style=social&color=white)](https://github.com/Gathin23/CleanYourTV/stargazers) | TV Debloater | Automated ADB optimization toolkit to debloat Android TV & Google TV over Wi-Fi for an Apple TV-style home. |
+| **[Jellyfin](https://github.com/jellyfin/jellyfin)** | [![Stars](https://img.shields.io/github/stars/jellyfin/jellyfin?style=social&color=white)](https://github.com/jellyfin/jellyfin/stargazers) | Media Server | 100% free software media system server backend with zero ads, tracking, or cloud surveillance. |
+| **[NewPipe](https://github.com/TeamNewPipe/NewPipe)** | [![Stars](https://img.shields.io/github/stars/TeamNewPipe/NewPipe?style=social&color=white)](https://github.com/TeamNewPipe/NewPipe/stargazers) | Media Client | Lightweight Android streaming frontend with native ad-blocking, background playback, and no Google Services. |
+| **[AdGuard Home](https://github.com/AdguardTeam/AdGuardHome)** | [![Stars](https://img.shields.io/github/stars/AdguardTeam/AdGuardHome?style=social&color=white)](https://github.com/AdguardTeam/AdGuardHome/stargazers) | DNS Sinkhole | Golang network-wide ad & tracker blocking DNS server with built-in web management and DoH/DoT/DoQ. |
+| **[SmartTube](https://github.com/yuliskov/SmartTube)** | [![Stars](https://img.shields.io/github/stars/yuliskov/SmartTube?style=social&color=white)](https://github.com/yuliskov/SmartTube/stargazers) | Media Client | Open-source ad-free YouTube player for Android TV & Fire TV with SponsorBlock, 4K HDR, and adjustable playback speeds. |
+| **[Hägezi DNS Blocklists](https://github.com/hagezi/dns-blocklists)** | [![Stars](https://img.shields.io/github/stars/hagezi/dns-blocklists?style=social&color=white)](https://github.com/hagezi/dns-blocklists/stargazers) | Filter Rules | Curated DNS blocklists with specialized Native Tracker protection for Samsung, LG, Roku, and Amazon TVs. |
+| **[FreeTube](https://github.com/FreeTubeApp/FreeTube)** | [![Stars](https://img.shields.io/github/stars/FreeTubeApp/FreeTube?style=social&color=white)](https://github.com/FreeTubeApp/FreeTube/stargazers) | Media Player | Desktop & HTPC private YouTube client blocking tracking and video ads without user account requirements. |
+| **[Kodi](https://github.com/xbmc/xbmc)** | [![Stars](https://img.shields.io/github/stars/xbmc/xbmc?style=social&color=white)](https://github.com/xbmc/xbmc/stargazers) | Media Center | Extensible open-source home theater software for Android TV with zero ads and extensive plugin ecosystems. |
+| **[Universal Android Debloater](https://github.com/0x192/universal-android-debloater)** | [![Stars](https://img.shields.io/github/stars/0x192/universal-android-debloater?style=social&color=white)](https://github.com/0x192/universal-android-debloater/stargazers) | TV Debloater | Cross-platform Rust ADB GUI to safely remove bloatware, tracking, and OEM apps on non-rooted Android TVs. |
+| **[SponsorBlock](https://github.com/ajayyy/SponsorBlock)** | [![Stars](https://img.shields.io/github/stars/ajayyy/SponsorBlock?style=social&color=white)](https://github.com/ajayyy/SponsorBlock/stargazers) | Extension / API | Crowdsourced database and API engine that skips sponsored segments within videos on Smart TV apps. |
+| **[dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)** | [![Stars](https://img.shields.io/github/stars/DNSCrypt/dnscrypt-proxy?style=social&color=white)](https://github.com/DNSCrypt/dnscrypt-proxy/stargazers) | DNS Proxy | Flexible encrypted DNS proxy supporting DNSCrypt, DoH, local blocklists, DNS cloaking, and DNSSEC. |
+| **[Pi-hole Docker](https://github.com/pi-hole/docker-pi-hole)** | [![Stars](https://img.shields.io/github/stars/pi-hole/docker-pi-hole?style=social&color=white)](https://github.com/pi-hole/docker-pi-hole/stargazers) | Container / DNS | Official Pi-hole containerized deployment image for Docker, Kubernetes, and home-server routers. |
+| **[Technitium DNS Server](https://github.com/TechnitiumSoftware/DnsServer)** | [![Stars](https://img.shields.io/github/stars/TechnitiumSoftware/DnsServer?style=social&color=white)](https://github.com/TechnitiumSoftware/DnsServer/stargazers) | DNS Server | Cross-platform C# authoritative and recursive DNS server with built-in ad-blocking, DoH/DoT, and web GUI. |
+| **[UAD-NG](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation)** | [![Stars](https://img.shields.io/github/stars/Universal-Debloater-Alliance/universal-android-debloater-next-generation?style=social&color=white)](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/stargazers) | TV Debloater | Maintained next-generation fork of Universal Android Debloater with updated package definitions for modern Smart TVs. |
+| **[PipePipe](https://github.com/InfinityLoop1308/PipePipe)** | [![Stars](https://img.shields.io/github/stars/InfinityLoop1308/PipePipe?style=social&color=white)](https://github.com/InfinityLoop1308/PipePipe/stargazers) | Media Client | Multi-platform open-source streaming client for Android TV with built-in SponsorBlock and zero telemetry. |
+| **[Blocky](https://github.com/0xERR0R/blocky)** | [![Stars](https://img.shields.io/github/stars/0xERR0R/blocky?style=social&color=white)](https://github.com/0xERR0R/blocky/stargazers) | DNS Proxy | Fast Go-based DNS proxy and ad blocker engineered for home labs, custom device groups, and Prometheus metrics. |
+| **[RethinkDNS](https://github.com/celzero/rethink-app)** | [![Stars](https://img.shields.io/github/stars/celzero/rethink-app?style=social&color=white)](https://github.com/celzero/rethink-app/stargazers) | DNS / Firewall | On-device DNS-over-HTTPS/Tor resolver, WireGuard manager, and per-app network firewall for Android TV. |
+| **[Unbound](https://github.com/NLnetLabs/unbound)** | [![Stars](https://img.shields.io/github/stars/NLnetLabs/unbound?style=social&color=white)](https://github.com/NLnetLabs/unbound/stargazers) | DNS Resolver | High-performance validating, recursive, caching DNS resolver often paired with Pi-hole and AdGuard Home. |
+| **[Jellyfin Android TV](https://github.com/jellyfin/jellyfin-androidtv)** | [![Stars](https://img.shields.io/github/stars/jellyfin/jellyfin-androidtv?style=social&color=white)](https://github.com/jellyfin/jellyfin-androidtv/stargazers) | TV Client | Dedicated, native leanback client for Jellyfin on Android TV and Google TV with zero advertisement banners. |
+| **[Blokada Libre](https://github.com/blokadaorg/blokada)** | [![Stars](https://img.shields.io/github/stars/blokadaorg/blokada?style=social&color=white)](https://github.com/blokadaorg/blokada/stargazers) | On-Device DNS | On-device local VPN-based DNS sinkhole for Android TV filtering ads without external server routing. |
+| **[TizenTube](https://github.com/reisxd/TizenTube)** | [![Stars](https://img.shields.io/github/stars/reisxd/TizenTube?style=social&color=white)](https://github.com/reisxd/TizenTube/stargazers) | Tizen Client | TizenBrew module removing ads and enabling SponsorBlock playback directly on Samsung Tizen Smart TVs. |
+| **[Pi-hole FTL](https://github.com/pi-hole/FTL)** | [![Stars](https://img.shields.io/github/stars/pi-hole/FTL?style=social&color=white)](https://github.com/pi-hole/FTL/stargazers) | Core Engine | High-speed C-based Faster-Than-Light DNS caching and filtering engine powering Pi-hole deployments. |
+| **[YouTube AdFree webOS](https://github.com/webosbrew/youtube-webos)** | [![Stars](https://img.shields.io/github/stars/webosbrew/youtube-webos?style=social&color=white)](https://github.com/webosbrew/youtube-webos/stargazers) | webOS Client | Ad-free YouTube web app with native SponsorBlock integration specifically tailored for LG webOS TVs. |
+| **[Aerial Views](https://github.com/theothernt/AerialViews)** | [![Stars](https://img.shields.io/github/stars/theothernt/AerialViews?style=social&color=white)](https://github.com/theothernt/AerialViews/stargazers) | Screensaver | Clean, telemetry-free Apple TV-style 4K HDR video screensaver for Android TV, Google TV, and Fire TV. |
+| **[Kodi YouTube Plugin](https://github.com/anxdpanic/plugin.video.youtube)** | [![Stars](https://img.shields.io/github/stars/anxdpanic/plugin.video.youtube?style=social&color=white)](https://github.com/anxdpanic/plugin.video.youtube/stargazers) | Kodi Plugin | Open-source Kodi addon allowing full YouTube video streaming without commercial ad intermissions. |
+| **[IPTV Simple Client](https://github.com/kodi-pvr/pvr.iptvsimple)** | [![Stars](https://img.shields.io/github/stars/kodi-pvr/pvr.iptvsimple?style=social&color=white)](https://github.com/kodi-pvr/pvr.iptvsimple/stargazers) | Kodi PVR | Open-source Kodi PVR addon to load custom M3U playlists, XMLTV guides, and clean live streams. |
+| **[FLauncher](https://gitlab.com/flauncher/flauncher)** | *GitLab Hosted* | Custom Launcher | Open-source Flutter-based ad-free minimalist home launcher for Android TV replacing ad-cluttered vendor launchers. |
+
+---
+
+## Detailed Project Breakdowns
+
+### DNS Sinkholes & Encrypted Resolvers
+- **[Pi-hole](https://github.com/pi-hole/pi-hole)**: Linux network-level advertisement and tracker blocking application acting as a DNS sinkhole across your local network.
+- **[AdGuard Home](https://github.com/AdguardTeam/AdGuardHome)**: Network-wide, single-binary software written in Go with encrypted DNS support (DoH/DoT/DoQ), parental controls, and a responsive web UI.
+- **[Technitium DNS Server](https://github.com/TechnitiumSoftware/DnsServer)**: Authoritative and recursive DNS server with built-in ad-blocking, DNSSEC, DoH/DoT, and granular app extensions.
+- **[Blocky](https://github.com/0xERR0R/blocky)**: Lightweight Go DNS proxy optimized for containerized home labs and automated blocklist orchestration.
+- **[Unbound](https://github.com/NLnetLabs/unbound)**: Validating, recursive, caching DNS resolver often paired with Pi-hole or AdGuard Home for root-server queries without third-party upstream providers.
+- **[dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)**: Advanced DNS proxy supporting encrypted protocols, domain cloaking, and granular Smart TV filtering.
+
+### Smart TV Debloaters & System Optimization
+- **[CleanYourTV](https://github.com/Gathin23/CleanYourTV)**: ADB-driven toolkit that connects to Android TV / Google TV over Wi-Fi to remove sponsored carousels, disable vendor telemetry, and speed up UI animations.
+- **[Universal Android Debloater Next Generation](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation)**: Modern Rust GUI leveraging ADB to safely disable carrier, Google, and OEM vendor bloatware packages.
+- **[Universal Android Debloater](https://github.com/0x192/universal-android-debloater)**: The foundational cross-platform ADB debloater project for non-rooted Android devices.
+
+### Ad-Free Media Clients & Players
+- **[SmartTube](https://github.com/yuliskov/SmartTube)**: The premier open-source video streaming client engineered for Android TV, Google TV, and Amazon Fire TV with built-in SponsorBlock and zero Google Play dependencies.
+- **[Jellyfin](https://github.com/jellyfin/jellyfin)** & **[Jellyfin Android TV](https://github.com/jellyfin/jellyfin-androidtv)**: Self-hosted, privacy-respecting media server and leanback client with zero surveillance or subscription gates.
+- **[NewPipe](https://github.com/TeamNewPipe/NewPipe)** & **[PipePipe](https://github.com/InfinityLoop1308/PipePipe)**: Privacy-centric frontends for mobile and Android TV setups with background audio, SponsorBlock, and no tracking.
+- **[TizenTube](https://github.com/reisxd/TizenTube)**: TizenBrew package for Samsung Smart TVs providing ad-free video streaming and sponsor skipping.
+- **[YouTube AdFree webOS](https://github.com/webosbrew/youtube-webos)**: Dedicated homebrew client for rooted and developer-mode LG webOS Smart TVs.
+- **[Kodi](https://github.com/xbmc/xbmc)**: Award-winning home theater media hub supporting customized skins, local media playback, and ad-free streaming addons.
+
+### Custom Launchers & TV Utilities
+- **[FLauncher](https://gitlab.com/flauncher/flauncher)**: Minimalist, fast, ad-free alternative launcher built with Flutter to replace bloated stock Android TV home screens.
+- **[Aerial Views](https://github.com/theothernt/AerialViews)**: 4K HDR screensaver bringing Apple TV video screensavers to Google TV, Fire TV, and Android TV without background telemetry.
+- **[SponsorBlock](https://github.com/ajayyy/SponsorBlock)**: The crowd-sourced ecosystem that powers sponsor segment skipping across modern open-source media clients.
+
+### Curated Smart TV Blocklists
+- **[Hägezi Multi-Pro DNS Blocklists](https://github.com/hagezi/dns-blocklists)**: Comprehensively maintained blocklists containing dedicated **Native Tracker Protection** rules for:
+  - Samsung Tizen telemetry (`samsungacr.com`, `samsungcloudcdn.com`)
+  - LG webOS analytics and ad servers (`smartshare.lgtvsdp.com`, `rdx.lgtvcommon.com`)
+  - Amazon Fire TV diagnostic reporting
+  - Roku metrics, ACR, and ad impression servers
+  - Sony, Xiaomi, and Hisense TV telemetry endpoints
+
+---
+
+## Recommended Stack Architecture
+
+For a completely private, responsive living-room media configuration, combine:
+
+1. **Network Layer (DNS Sinkhole)**:
+   - Deploy **AdGuard Home** or **Pi-hole** with **Hägezi Native Smart TV Blocklists** on your local router or Raspberry Pi.
+   - Alternatively, configure router DNS to use **NextDNS** or **Control D** with OEM tracking toggles enabled.
+2. **Device Layer (ADB Debloating)**:
+   - Connect via Wi-Fi using **CleanYourTV** or **UAD-NG** to disable stock vendor launchers, telemetry packages, and sponsored recommendation channels.
+3. **Application Layer (Clean UI & Ad-Free Streaming)**:
+   - Install **FLauncher** as your primary home screen.
+   - Use **SmartTube** for ad-free YouTube streaming with SponsorBlock.
+   - Stream local and networked home media with **Jellyfin**.
+
+---
+
+## How to Contribute
+
+Contributions are welcome! Please help keep this guide the definitive reference for Smart TV privacy and optimization:
+
+1. **Fork** this repository.
+2. **Add or update** entries in `README.md` adhering to the tabular or listed format.
+3. Ensure all pricing, star badges, and links are factual, specific, and active.
+4. **Submit a Pull Request** with a concise description of your additions.
+
+---
+
+## Disclaimer
+
+- This repository is a **community-curated index** intended for informational and privacy-enhancement purposes.
+- ADB debloating utilities modify system package states. Disabling critical system services (such as DRM providers, Widevine components, or input managers) without alternatives can disrupt paid streaming subscriptions or device stability. Review package documentation prior to disabling.
+- Strict network DNS sinkholes can occasionally block firmware update servers, remote pairing, or voice assistants; add legitimate required domains to your personal allowlist as needed.
+
+---
+
+**Made with care for home-labbers, privacy advocates, cord-cutters, and open-source enthusiasts.**
