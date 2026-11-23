@@ -80,7 +80,7 @@ The table below summarizes leading hosted DNS filtering and ad-blocking services
 
 ## 💻 Open-Source GitHub Projects
 
-All open-source tools below are actively maintained and sorted in **descending order by GitHub Stars_Count**. Each repository badge links directly to its live stargazers page.
+All open-source tools below are actively maintained and sorted in **descending order by GitHub_Stars_Count**. Each repository badge links directly to its live stargazers page.
 
 ### 🏆 All Open-Source Projects (Ranked by Stars)
 
